@@ -14,6 +14,7 @@ df = df[df['Xmax'] < 1100][['Xmax', 'lgE']].round(5)
 
 x = np.array(df['lgE'])
 y = np.array(df['Xmax'])
+print(df)
 df.to_csv('/home/wexon/software/congreso/PoQ02.csv')
 #df2.to_csv('/home/wexon/software/congreso/Fe.csv')
 
